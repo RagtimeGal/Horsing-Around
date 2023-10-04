@@ -1,0 +1,42 @@
+{
+    "item.minecraft.knowledge_book": "§fRecipe Output",
+
+    "pack.hoar": "Horsing Around",
+    "pack.hoar.hover_event": "Click here to open the Horsing Around Wiki",
+    "pack.hoar.tooltip": "\ua000 %s",
+
+    "commands.hoar.reload.success": " Reloaded Horsing Around",
+    "commands.hoar.initiate": "%s is enabled.",
+    "commands.hoar.wrong_version": "\nYou are using Horsing Around on the incorrect Minecraft version. You should be using Minecraft 1.20.3.",
+    "commands.hoar.initiate.wrong_version.title": "WRONG VERSION",
+
+    "chat.hoar.wiki": "[HORSING AROUND WIKI]",
+    "chat.hoar.wiki.hover_event": "Click here to open the Horsing Around Wiki",
+    "chat.hoar.gamerules.title": "Horsing Around Gamerules",
+    "chat.hoar.gamerules.false": "[Off]",
+    "chat.hoar.gamerules.true": "[On]",
+    "chat.hoar.gamerules.default_false": "Default: Off",
+    "chat.hoar.gamerules.default_true": "Default: On",
+    "chat.hoar.gamerules.allowgoathorncalling": "Do Goat Horn Calling",
+    "chat.hoar.gamerules.allowgoathorncalling.description": "Toggle whether Horses can be called to their owner using a Goat Horn",
+
+    "item.hoar.oak_lance": "Oak Lance",
+    "item.hoar.dark_oak_lance": "Dark Oak Lance",
+    "item.hoar.spruce_lance": "Spruce Lance",
+    "item.hoar.birch_lance": "Birch Lance",
+    "item.hoar.jungle_lance": "Jungle Lance",
+    "item.hoar.cherry_blossom_lance": "Cherry Lance",
+    "item.hoar.acacia_lance": "Acacia Lance",
+    "item.hoar.mangrove_lance": "Mangrove Lance",
+    "item.hoar.warped_lance": "Warped Lance",
+    "item.hoar.crimson_lance": "Crimson Lance",
+    "item.hoar.leather_lance": "Ornamental Lance",
+    "item.hoar.undying_saddle": "Saddle of Undying",
+
+    "death.attack.hoar.lance": "%1$s was impaled by %2$s",
+    "death.attack.hoar.lance.item": "%1$s was impaled by %2$s using %3$",
+
+    "hoar (MISSING RESOURCES)": "%s",
+    "The Horsing Around Resource Pack is not installed.": "%s"
+  }
+  

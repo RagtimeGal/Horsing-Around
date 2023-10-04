@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "description": [
+      {
+        "color": "#FFAA00",
+        "text": "Horsing Around"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "color": "#6eea6e",
+        "text": "b0.1"
+      }
+    ],
+    "pack_format": 18
+  }
+}

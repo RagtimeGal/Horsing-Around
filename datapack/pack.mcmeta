@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "pack_format": 19,
+    "description": [
+      {
+        "color": "#FFAA00",
+        "text": "Horsing Around"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "color": "#6eea6e",
+        "text": "b0.1"
+      }
+    ]
+  },
+  "overlays" : {
+    "entries": [
+      {
+        "formats": 19,
+        "directory": "versioning"
+      }
+    ]
+  }
+}
