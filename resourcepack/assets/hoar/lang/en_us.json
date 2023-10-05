@@ -32,6 +32,7 @@
 
     "death.attack.hoar.lance": "%1$s was bested by %2$s in a Joust",
     "death.attack.hoar.lance.item": "%1$s was bested by %2$s in a Joust",
+    "death.attack.hoar.shatter": "%1$s was standing too close to a Joust",
   
     "advancements.hoar.husbandry.tame_a_horse.title": "Why The Long Face?",
     "advancements.hoar.husbandry.tame_a_horse.description": "Tame a Horse",
