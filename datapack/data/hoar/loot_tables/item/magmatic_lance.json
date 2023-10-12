@@ -1,0 +1,113 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:2,hoar:{id:\"hoar:magmatic_lance\"},CustomModelData:409002}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.hoar.magmatic_lance",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "item.durability",
+                                    "color": "gray",
+                                    "italic": false,
+                                    "with": [
+                                        337,
+                                        337
+                                    ]
+                                },
+                                {
+                                    "translate": "pack.hoar.tooltip",
+                                    "color": "white",
+                                    "italic": false,
+                                    "font": "hoar:tooltip",
+                                    "with": [
+                                        {
+                                            "translate": "pack.hoar",
+                                            "color": "#FFAA00",
+                                            "italic": true,
+                                            "font": "minecraft:default"
+                                        }
+                                    ]
+                                },
+                                "",
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    " ",
+                                    {
+                                        "translate": "attribute.modifier.equals.0",
+                                        "italic": false,
+                                        "color": "dark_green",
+                                        "with": [
+                                            3,
+                                            {
+                                                "translate": "attribute.name.generic.attack_damage"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                [
+                                    " ",
+                                    {
+                                        "translate": "attribute.modifier.equals.0",
+                                        "italic": false,
+                                        "color": "dark_green",
+                                        "with": [
+                                            2,
+                                            {
+                                                "translate": "attribute.name.generic.attack_speed"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "name": "generic.attack_damage",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "mainhand"
+                                    ]
+                                },
+                                {
+                                    "attribute": "generic.attack_speed",
+                                    "name": "generic.attack_speed",
+                                    "amount": -2,
+                                    "operation": "addition",
+                                    "slot": [
+                                        "mainhand"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "hoar:item/magmatic_lance"
+}
