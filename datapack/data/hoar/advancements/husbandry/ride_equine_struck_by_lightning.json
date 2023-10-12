@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.title",
+        "description": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.description",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hoar:husbandry/tame_an_equine",
+    "criteria": {
+        "ride_equine_struck_by_lightning": {
+            "trigger": "minecraft:lightning_strike",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "#hoar:equine"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ride_equine_struck_by_lightning"
+        ]
+    ]
+}
