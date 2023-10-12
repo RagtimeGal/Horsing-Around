@@ -38,7 +38,7 @@
                                     "with": [
                                         {
                                             "translate": "pack.hoar",
-                                            "color": "#FFAA00",
+                                            "color": "#683D24",
                                             "italic": true,
                                             "font": "minecraft:default"
                                         }
@@ -46,61 +46,34 @@
                                 },
                                 "",
                                 {
-                                    "translate": "item.modifiers.mainhand",
+                                    "translate": "item.hoar.lance.desc1",
                                     "color": "gray",
                                     "italic": false
                                 },
                                 [
                                     " ",
                                     {
-                                        "translate": "attribute.modifier.equals.0",
+                                        "translate": "item.hoar.lance.desc2",
                                         "italic": false,
-                                        "color": "dark_green",
-                                        "with": [
-                                            3,
-                                            {
-                                                "translate": "attribute.name.generic.attack_damage"
-                                            }
-                                        ]
+                                        "color": "blue"
                                     }
                                 ],
                                 [
                                     " ",
                                     {
-                                        "translate": "attribute.modifier.equals.0",
+                                        "translate": "item.hoar.lance.desc3",
                                         "italic": false,
-                                        "color": "dark_green",
-                                        "with": [
-                                            2,
-                                            {
-                                                "translate": "attribute.name.generic.attack_speed"
-                                            }
-                                        ]
+                                        "color": "blue"
+                                    }
+                                ],
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.hoar.magmatic_lance.desc1",
+                                        "italic": false,
+                                        "color": "blue"
                                     }
                                 ]
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.attack_damage",
-                                    "name": "generic.attack_damage",
-                                    "amount": 3,
-                                    "operation": "addition",
-                                    "slot": [
-                                        "mainhand"
-                                    ]
-                                },
-                                {
-                                    "attribute": "generic.attack_speed",
-                                    "name": "generic.attack_speed",
-                                    "amount": -2,
-                                    "operation": "addition",
-                                    "slot": [
-                                        "mainhand"
-                                    ]
-                                }
                             ]
                         }
                     ],

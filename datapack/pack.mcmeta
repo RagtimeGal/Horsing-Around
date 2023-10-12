@@ -1,16 +1,16 @@
 {
   "pack": {
-    "pack_format": 19,
+    "pack_format": 20,
     "description": [
       {
-        "color": "#FFAA00",
+        "color": "#683D24",
         "text": "Horsing Around"
       },
       {
         "text": "\n"
       },
       {
-        "color": "#6eea6e",
+        "color": "#683D24",
         "text": "b0.1"
       }
     ]
@@ -18,7 +18,7 @@
   "overlays" : {
     "entries": [
       {
-        "formats": 19,
+        "formats": 20,
         "directory": "versioning"
       }
     ]
