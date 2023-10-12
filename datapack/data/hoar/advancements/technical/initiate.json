@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "hoar:entity/player/initiate"
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "parent": "hoar:technical/root"
+}
