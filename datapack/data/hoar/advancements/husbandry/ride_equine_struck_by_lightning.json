@@ -1,16 +1,20 @@
 {
+    "parent": "hoar:husbandry/tame_an_equine",
     "display": {
         "icon": {
             "item": "minecraft:saddle"
         },
-        "title": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.title",
-        "description": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.description",
+        "title": {
+            "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.title"
+        },
+        "description": {
+            "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.description"
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "hoar:husbandry/tame_an_equine",
     "criteria": {
         "ride_equine_struck_by_lightning": {
             "trigger": "minecraft:lightning_strike",

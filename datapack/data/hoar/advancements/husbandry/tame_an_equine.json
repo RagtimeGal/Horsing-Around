@@ -1,18 +1,22 @@
 {
+    "parent": "minecraft:husbandry/tame_an_animal",
     "display": {
         "icon": {
             "item": "minecraft:saddle"
         },
-        "title": "advancements.hoar.husbandry.tame_an_equine.title",
-        "description": "advancements.hoar.husbandry.tame_an_equine.description",
+        "title": {
+            "translate": "advancements.hoar.husbandry.tame_an_equine.title"
+        },
+        "description": {
+            "translate": "advancements.hoar.husbandry.tame_an_equine.description"
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "minecraft:husbandry/tame_an_animal",
     "criteria": {
-        "requirement": {
+        "tame_an_equine": {
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": [
@@ -29,7 +33,7 @@
     },
     "requirements": [
         [
-            "tame_a_horse"
+            "tame_an_equine"
         ]
     ]
 }
