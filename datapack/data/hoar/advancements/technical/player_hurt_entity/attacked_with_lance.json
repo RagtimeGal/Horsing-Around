@@ -1,0 +1,100 @@
+{
+    "parent": "hoar:technical/root",
+    "criteria": {
+        "player_uses_lance": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:warped_fungus_on_a_stick"
+                                    ],
+                                    "nbt": "{hoar:{id:\"hoar:lance\"}}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "player_uses_magmatic_lance": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:warped_fungus_on_a_stick"
+                                    ],
+                                    "nbt": "{hoar:{id:\"hoar:magmatic_lance\"}}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "player_uses_slimy_lance": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:warped_fungus_on_a_stick"
+                                    ],
+                                    "nbt": "{hoar:{id:\"hoar:slimy_lance\"}}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "player_uses_shimmering_lance": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:warped_fungus_on_a_stick"
+                                    ],
+                                    "nbt": "{hoar:{id:\"hoar:shimmering_lance\"}}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "player_uses_lance",
+            "player_uses_magmatic_lance",
+            "player_uses_slimy_lance",
+            "player_uses_shimmering_lance"
+        ]
+    ],
+    "rewards": {
+        "function": "hoar:item/durability/damage_generic_amount/mainhand_1"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "parent": "hoar:technical/root",
+    "criteria": {
+        "started_riding_equine": {
+          "trigger": "minecraft:started_riding",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {
+                    "type": "#hoar:equine"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+    "requirements": [
+      [
+        "started_riding_equine"
+      ]
+    ],
+    "rewards": {
+      "function": "hoar:entity/player/mounted_equine"
+    }
+  }
+  

@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "hoar:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.durability",
+        "with": [
+          {
+            "nbt": "root.temp.item.tag.hoar.durability[0]",
+            "storage": "hoar:storage"
+          },
+          {
+            "nbt": "root.temp.item.tag.hoar.durability[1]",
+            "storage": "hoar:storage"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:slimy_lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:slimy_lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:magmatic_lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:magmatic_lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:shimmering_lance\"}}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:warped_fungus_on_a_stick"
+                ],
+                "count": {
+                  "min": 1
+                },
+                "nbt": "{hoar:{id:\"hoar:shimmering_lance\"}}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {}
+      }
+    }
+  ]
+}

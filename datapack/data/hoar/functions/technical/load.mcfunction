@@ -4,6 +4,13 @@
 
 ## Create Scoreboards
 scoreboard objectives add hoar.dummy dummy
+scoreboard objectives add hoar.wiki dummy
+scoreboard objectives add hoar.horse_pos.x dummy
+scoreboard objectives add hoar.horse_pos.y dummy
+scoreboard objectives add hoar.horse_pos.z dummy
+scoreboard objectives add hoar.horse_data dummy
+scoreboard objectives add hoar.old_xp dummy
+scoreboard objectives add hoar.current_xp xp
 
 ## Run on Load
 tellraw @a[predicate=hoar:entity_properties/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.hoar.reload.success","color":"white","bold":false}]

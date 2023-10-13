@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:2,hoar:{id:\"hoar:lance\"},CustomModelData:409000}"
+                            "tag": "{HideFlags:2,hoar:{id:\"hoar:lance\",durability:[337,337],repaired:1b},CustomModelData:409000}"
                         },
                         {
                             "function": "minecraft:set_name",
