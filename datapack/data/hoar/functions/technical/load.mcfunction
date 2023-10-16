@@ -11,6 +11,7 @@ scoreboard objectives add hoar.horse_pos.z dummy
 scoreboard objectives add hoar.horse_data dummy
 scoreboard objectives add hoar.old_xp dummy
 scoreboard objectives add hoar.current_xp xp
+scoreboard objectives add hoar.warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 
 ## Run on Load
 tellraw @a[predicate=hoar:entity_properties/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.hoar.reload.success","color":"white","bold":false}]
