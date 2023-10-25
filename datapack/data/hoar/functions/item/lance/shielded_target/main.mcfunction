@@ -19,3 +19,4 @@ execute if score $durability.lance hoar.dummy < $durability.shield hoar.dummy as
 execute if score $durability.lance hoar.dummy < $durability.shield hoar.dummy run function hoar:item/lance/damage_shield
 # Lance > Shield || Break Shield
 execute if score $durability.lance hoar.dummy > $durability.shield hoar.dummy run function hoar:item/lance/shielded_target/break_shield
+execute if score $durability.lance hoar.dummy > $durability.shield hoar.dummy as @p[tag=hoar.tag] run advancement grant @s only hoar:husbandry/win_a_joust
