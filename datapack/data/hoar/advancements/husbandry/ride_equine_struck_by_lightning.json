@@ -2,7 +2,7 @@
     "parent": "hoar:husbandry/tame_an_equine",
     "display": {
         "icon": {
-            "item": "minecraft:saddle"
+            "item": "minecraft:lightning_rod"
         },
         "title": {
             "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.title"
