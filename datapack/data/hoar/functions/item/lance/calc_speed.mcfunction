@@ -24,9 +24,9 @@ scoreboard players operation $dz hoar.horse_data = $z hoar.horse_data
 scoreboard players operation $dz hoar.horse_data -= @s hoar.horse_pos.z
 scoreboard players operation $dz hoar.horse_data *= $dz hoar.horse_data
 # calc speed
-scoreboard players operation $speed hoar.horse_data = $dx hoar.horse_data
-scoreboard players operation $speed hoar.horse_data += $dy hoar.horse_data
-scoreboard players operation $speed hoar.horse_data += $dz hoar.horse_data
+execute on passengers run scoreboard players operation @s hoar.horse_data = $dx hoar.horse_data
+execute on passengers run scoreboard players operation @s hoar.horse_data += $dy hoar.horse_data
+execute on passengers run scoreboard players operation @s hoar.horse_data += $dz hoar.horse_data
 
 ## Store Horses current POS as its previous
 scoreboard players operation @s hoar.horse_pos.x = $x hoar.horse_data

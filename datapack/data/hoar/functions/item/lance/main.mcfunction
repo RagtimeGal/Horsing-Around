@@ -3,8 +3,8 @@
 ####################
 
 ## Get owner's Lance durability
-execute if entity @s[predicate=hoar:entity_properties/holding_any_lance,nbt={SelectedItem:{tag:{hoar:{}}}}] store result score player.lance hoar.dummy run data get entity @s SelectedItem.tag.hoar.durability[0]
-execute if entity @s[predicate=hoar:entity_properties/holding_any_lance,nbt=!{SelectedItem:{tag:{hoar:{}}}}] store result score player.lance hoar.dummy run data get entity @s Inventory[{Slot:-106b}].tag.hoar.durability[0]
+execute if entity @s[predicate=hoar:entity_properties/holding_any_lance,nbt={SelectedItem:{tag:{hoar:{}}}}] store result score $durability.lance hoar.dummy run data get entity @s SelectedItem.tag.hoar.durability[0]
+execute if entity @s[predicate=hoar:entity_properties/holding_any_lance,nbt=!{SelectedItem:{tag:{hoar:{}}}}] store result score $durability.lance hoar.dummy run data get entity @s Inventory[{Slot:-106b}].tag.hoar.durability[0]
 
 ## Raycast to find Target
 data remove storage hoar:storage root.temp

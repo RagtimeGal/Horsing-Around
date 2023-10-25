@@ -9,6 +9,7 @@ scoreboard objectives add hoar.horse_pos.x dummy
 scoreboard objectives add hoar.horse_pos.y dummy
 scoreboard objectives add hoar.horse_pos.z dummy
 scoreboard objectives add hoar.horse_data dummy
+scoreboard players set $multiplyby hoar.horse_data 5
 scoreboard objectives add hoar.old_xp dummy
 scoreboard objectives add hoar.current_xp xp
 scoreboard objectives add hoar.warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
