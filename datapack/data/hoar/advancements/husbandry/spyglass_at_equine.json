@@ -1,50 +1,66 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:spyglass"
-      },
-      "title": {
-        "translate": "advancements.hoar.husbandry.spyglass_at_equine.title"
-      },
-      "description": {
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.hoar.husbandry.spyglass_at_equine.title"
+    },
+    "description": [
+      {
         "translate": "advancements.hoar.husbandry.spyglass_at_equine.description"
       },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-    },
-    "parent": "hoar:husbandry/tame_an_equine",
-    "criteria": {
-      "spyglass_at_equine": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "looking_at": {
-                    "type": "#hoar:equine"
-                  }
+      "\n\n",
+      {
+        "translate": "pack.hoar.tooltip",
+        "color": "white",
+        "italic": false,
+        "font": "hoar:tooltip",
+        "with": [
+          {
+            "translate": "pack.hoar",
+            "color": "#683D24",
+            "italic": true,
+            "font": "minecraft:default"
+          }
+        ]
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "hoar:husbandry/tame_an_equine",
+  "criteria": {
+    "spyglass_at_equine": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "#hoar:equine"
                 }
               }
             }
-          ],
-          "item": {
-            "items": [
-              "minecraft:spyglass"
-            ]
           }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
       }
-    },
-    "requirements": [
-      [
-        "spyglass_at_equine"
-      ]
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_equine"
     ]
-  }
-  
+  ]
+}

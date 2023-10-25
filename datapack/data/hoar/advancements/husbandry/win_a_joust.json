@@ -1,31 +1,47 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:warped_fungus_on_a_stick",
-        "nbt": "{CustomModelData:409000}"
-      },
-      "title": {
-        "translate": "advancements.hoar.husbandry.win_a_joust.title"
-      },
-      "description": {
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:409000}"
+    },
+    "title": {
+      "translate": "advancements.hoar.husbandry.win_a_joust.title"
+    },
+    "description": [
+      {
         "translate": "advancements.hoar.husbandry.win_a_joust.description"
       },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-    },
-    "parent": "hoar:husbandry/tame_an_equine",
-    "criteria": {
-      "win_a_joust": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
+      "\n\n",
+      {
+        "translate": "pack.hoar.tooltip",
+        "color": "white",
+        "italic": false,
+        "font": "hoar:tooltip",
+        "with": [
+          {
+            "translate": "pack.hoar",
+            "color": "#683D24",
+            "italic": true,
+            "font": "minecraft:default"
+          }
+        ]
       }
-    },
-    "requirements": [
-      [
-        "win_a_joust"
-      ]
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "hoar:husbandry/tame_an_equine",
+  "criteria": {
+    "win_a_joust": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "win_a_joust"
     ]
-  }
-  
+  ]
+}

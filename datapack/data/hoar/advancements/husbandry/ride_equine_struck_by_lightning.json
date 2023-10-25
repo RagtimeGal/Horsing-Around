@@ -7,9 +7,26 @@
         "title": {
             "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.title"
         },
-        "description": {
-            "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.description"
-        },
+        "description": [
+            {
+                "translate": "advancements.hoar.husbandry.ride_equine_struck_by_lightning.description"
+            },
+            "\n\n",
+            {
+                "translate": "pack.hoar.tooltip",
+                "color": "white",
+                "italic": false,
+                "font": "hoar:tooltip",
+                "with": [
+                    {
+                        "translate": "pack.hoar",
+                        "color": "#683D24",
+                        "italic": true,
+                        "font": "minecraft:default"
+                    }
+                ]
+            }
+        ],
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
