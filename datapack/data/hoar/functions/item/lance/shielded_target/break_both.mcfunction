@@ -4,6 +4,6 @@
 
 ## Break Both
 # Break Shield
-function hoar:item/lance/shielded_target/break_shield
+execute if predicate hoar:random_chance/1_2 run function hoar:item/lance/shielded_target/break_shield
 # Break Lance
-execute as @p[tag=hoar.tag] run function hoar:item/lance/shielded_target/break_lance
+execute if predicate hoar:random_chance/1_2 as @p[tag=hoar.tag] run function hoar:item/lance/shielded_target/break_lance
