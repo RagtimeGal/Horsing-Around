@@ -14,19 +14,7 @@
             "predicate": {
                 "custom_model_data": 409001
             },
-            "model": "hoar:item/slimy_lance"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 409002
-            },
-            "model": "hoar:item/magmatic_lance"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 409003
-            },
-            "model": "hoar:item/shimmering_lance"
+            "model": "hoar:item/glue"
         }
     ]
 }

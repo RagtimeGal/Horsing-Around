@@ -1,7 +1,0 @@
-{
-    "parent": "hoar:item/handheld_lance",
-    "textures": {
-        "layer0": "hoar:item/ornamental_lance",
-        "layer1": "hoar:item/ornamental_lance_overlay"
-    }
-}

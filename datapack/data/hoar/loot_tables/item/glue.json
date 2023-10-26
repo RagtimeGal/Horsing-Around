@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:2,hoar:{id:\"hoar:glue\"},CustomModelData:409001}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.hoar.glue",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "pack.hoar.tooltip",
+                                    "color": "white",
+                                    "italic": false,
+                                    "font": "hoar:tooltip",
+                                    "with": [
+                                        {
+                                            "translate": "pack.hoar",
+                                            "color": "#683D24",
+                                            "italic": true,
+                                            "font": "minecraft:default"
+                                        }
+                                    ]
+                                },
+                                "",
+                                {
+                                    "translate": "item.hoar.glue.desc1",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.hoar.glue.desc2",
+                                        "italic": false,
+                                        "color": "blue"
+                                    }
+                                ],
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.hoar.glue.desc3",
+                                        "italic": false,
+                                        "color": "blue"
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "hoar:item/glue"
+}

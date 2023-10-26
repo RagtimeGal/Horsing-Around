@@ -2,7 +2,7 @@
 # Runs when the player uses a goat horn near a horse
 ####################
 
-execute if entity @e[type=#hoar:equine,distance=..10] function hoar:item/goat_horn/prepare_storage
+execute if entity @e[type=#hoar:equine,distance=..10] run function hoar:item/goat_horn/prepare_storage
 tag @s add hoar.using_goat_horn
 scoreboard players set @s hoar.goat_horn_cooldown 8
 ## Revoke Advancement
