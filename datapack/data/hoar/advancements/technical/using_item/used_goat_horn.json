@@ -1,0 +1,35 @@
+{
+  "parent": "hoar:technical/root",
+  "criteria": {
+    "used_goat_horn": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"hoar.using_goat_horn\"]}"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_goat_horn"
+    ]
+  ],
+  "rewards": {
+    "function": "hoar:item/goat_horn/main"
+  }
+}

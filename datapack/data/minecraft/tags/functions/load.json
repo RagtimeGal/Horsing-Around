@@ -1,5 +1,6 @@
 {
 	"values": [
-		"hoar:technical/load"
+		"hoar:technical/load",
+		"hoar:technical/second_clock"
 	]
 }
