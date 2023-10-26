@@ -52,6 +52,10 @@
   "advancements.hoar.husbandry.win_a_joust.description": "Break an apponent's shield using a Lance",
   "advancements.hoar.husbandry.spyglass_at_equine.title": "Horse, See?",
   "advancements.hoar.husbandry.spyglass_at_equine.description": "Check an Equine's Stats using a Spyglass",
+  "advancements.hoar.husbandry.used_glue.title": "Held Stable",
+  "advancements.hoar.husbandry.used_glue.description": "Use some Glue to stick a mob in place",
+  "advancements.hoar.husbandry.used_glue_on_horse.title": "Ancestral Bond",
+  "advancements.hoar.husbandry.used_glue_on_horse.description": "Use Glue on a horse",
 
   "hoar (MISSING RESOURCES)": "%s",
   "The Horsing Around Resource Pack is not installed.": "%s"
