@@ -1,5 +1,5 @@
 {
-    "parent": "hoar:husbandry/tame_an_equine",
+    "parent": "hoar:husbandry/used_glue",
     "display": {
         "icon": {
             "item": "minecraft:warped_fungus_on_a_stick",
