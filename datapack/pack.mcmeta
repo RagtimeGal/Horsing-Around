@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 22,
+    "pack_format": 23,
+    "supported_formats": {"min_inclusive": 18, "max_inclusive": 23},
     "description": [
       {
         "color": "#683D24",
@@ -18,7 +19,7 @@
   "overlays" : {
     "entries": [
       {
-        "formats": 22,
+        "formats": {"min_inclusive": 18, "max_inclusive": 23},
         "directory": "versioning"
       }
     ]
